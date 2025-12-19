@@ -73,14 +73,23 @@ This platform addresses those challenges using **adaptive experimentation techni
 adaptive-experimentation-platform/
 │
 ├── data_simulation/ # User & session simulation
+
 ├── experiment_design/ # Variant assignment logic
+
 ├── metrics/ # Metric computation
+
 ├── stats_engine/ # Bootstrap CI & sequential tests
+
 ├── decision_engine/ # Rollout decision logic
+
 ├── analysis/ # HTE segmentation & analysis
+
 ├── dashboard/ # Streamlit app
+
 ├── report/ # Experiment report
+
 ├── run_experiment.py # Main experiment runner
+
 └── README.md
 
 ---
